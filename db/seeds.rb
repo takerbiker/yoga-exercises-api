@@ -14,9 +14,9 @@
 # ])
 
 User.create([
-    {username: "takerbiker", password: "takerbiker", password_confirmation: "takerbiker" },
-    {username: "admin", password: "admin", password_confirmation: "admin", admin: true },
-    {username: "johnjohn", password: "johnjohn", password_confirmation: "johnjohn" },
+    {username: "takerbiker", password_digest: "takerbiker" },
+    {username: "admin", password_digest: "admin", admin: true },
+    {username: "johnjohn", password_digest: "johnjohn" },
 ])
 
 # Comment.create([
